@@ -1,0 +1,146 @@
+html{
+    scroll-behavior: smooth;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+    margin-right: 2px;
+}
+
+.btn-border:hover {
+    color: black;
+    background-color: white;
+}
+
+@font-face {
+    font-family: Syne;
+    src: url("../fonts/Syne-Regular.ttf");
+}
+
+.main {
+    height: 90.7vh;
+    width: 100%;
+    background-color: black;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url("../images/main_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hello {
+    font-size: 28px;
+}
+
+#name {
+    font-size: 70px;
+}
+
+#description {
+    font-size: 33px;
+}
+
+.text-center h1 {
+    font-family: Syne, monospace;
+}
+
+.btn-infor, .btn-portfolio {
+    display: inline-block;
+    width: 150px;
+    padding: 3px;
+}
+
+.btn {
+    margin-top: 50px;
+    color: white;
+}
+
+.btn-border {
+    border: 2px solid white;
+}
+
+.about-me {
+    text-align: center;
+    margin-top: 5%;
+    font-variant: small-caps;
+}
+
+#about-me-img {
+    width: 50%;
+}
+
+.edu {
+    background-color: #888888;
+    height: 100%;
+    width: 100%;
+}
+
+.edu div h2 {
+    font-variant: small-caps;
+    padding-top: 10px;
+}
+
+.card-row {
+    color: black;
+    opacity: 1
+}
+
+.portfolio {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.portfolio h1 {
+    font-variant: small-caps;
+    padding-top: 2.5%;
+}
+
+.portfolio h5 {
+    font-family: Syne;
+    margin-bottom: 2em;
+}
+
+.portfolio-card-background-img {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url("../images/main_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.contact-us-btn:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+.footer {
+    background-color: #c6c6c6;
+}
+
+.footer-list {
+    display: inline;
+}
+
+.footer-list a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Syne;
+}
+
+.footer div i{
+    width:50px;
+    height: 50px;
+    font-size: 200%;
+}
+/*    MEDIA QUERY*/
+@media screen and (max-width: 575px) {
+    .col {
+        padding-top: 20px;
+    }
+}
